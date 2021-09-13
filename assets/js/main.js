@@ -88,7 +88,7 @@ let resumeButton = document.getElementById('resume-button')
 // Opção de impressão
 let opt = {
   margin:       0,
-  filename:     'EversonChaves.pdf',
+  filename:     'EversonChavesCV.pdf',
   image:        { type: 'jpeg', quality: 0.98 },
   html2canvas:  { scale: 4 },
   jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
